@@ -35,7 +35,7 @@ body {
             border: 1px solid dimgrey;
             border-radius: 0.25rem;
             width: 100%;
-            background: var(--hy-bg-accent-transparent);
+            background: linear-gradient(45deg,var(--hy-bg-accent-transparent),var(--hy-bg-dark-transparent));
             backdrop-filter: blur(16px);
 
             &::after {
@@ -147,6 +147,9 @@ body {
         padding: 2.5rem 2rem 2rem 2rem;
         width: 100%;
         background: var(--hy-bg-dark);
+        * {
+            font-weight: 1 !important;
+        }
     }
 
     .hy-bg-accent {
