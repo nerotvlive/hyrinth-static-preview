@@ -43,7 +43,7 @@ body {
                 background: black;
                 z-index: -1;
                 border-radius: 0.3rem;
-                box-shadow: 0 0 1.5rem #00000050;
+                box-shadow: 0 0 1.5rem #000000;
             }
 
             .corner {
