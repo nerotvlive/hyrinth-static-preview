@@ -8,6 +8,7 @@
 
 body {
     .header {
-        background: url("../../hytale/img/screenshot-5.jpg");
+        background: url("../../hytale/img/screenshots/5.webp");
+        background-size: cover;
     }
 }
