@@ -14,7 +14,6 @@
 
 * {
     font-family: penumbra-serif-std-bold serif;
-    font-weight: 1000 !important;
 }
 
 body {
@@ -25,6 +24,10 @@ body {
         width: 100%;
         user-select: none;
         z-index: 100;
+
+        * {
+            font-weight: 1000 !important;
+        }
 
         h2 {
             text-shadow: 0 0 1.5rem #00000050;
@@ -147,9 +150,6 @@ body {
         padding: 2.5rem 2rem 2rem 2rem;
         width: 100%;
         background: var(--hy-bg-dark);
-        * {
-            font-weight: 1 !important;
-        }
     }
 
     .hy-bg-accent {
