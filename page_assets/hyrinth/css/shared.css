@@ -12,21 +12,53 @@
     src: url("../font/penumbra-serif-std-bold.otf") format("opentype");
 }
 
-* {
-    font-family: penumbra-serif-std-bold serif;
-}
-
 body {
     background: var(--hy-bg);
 
+    .login-bar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 10000;
+        background: var(--hy-bg);
+        border-bottom: 1px solid var(--bs-border-color-translucent);
+
+        .container {
+            position: relative;
+            gap: 0.5rem;
+            justify-content: end;
+
+            padding: 0.25rem 0;
+
+            .seperate {
+                padding-right: 0.5rem;
+                border-right: 1px solid var(--bs-border-color-translucent);
+            }
+
+            a {
+                text-decoration: none;
+                color: var(--bs-light);
+                opacity: 0.75;
+                font-weight: 500;
+            }
+
+            a:hover {
+                opacity: 1;
+                cursor: pointer;
+            }
+        }
+    }
+
     #navbar {
-        padding: 1rem 0 0 0;
+        padding: 2.5rem 0 0 0;
         width: 100%;
         user-select: none;
         z-index: 100;
 
         * {
-            font-weight: 1000 !important;
+            font-weight: 750 !important;
+            font-family: penumbra-serif-std-bold sans-serif;
         }
 
         h2 {
